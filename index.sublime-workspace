@@ -1,0 +1,622 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"notifi",
+				"notificationShowing"
+			],
+			[
+				"otherProjec",
+				"otherProjectsIndex"
+			],
+			[
+				"otherPro",
+				"otherProjectsIndex"
+			],
+			[
+				"skip",
+				"otherProjectsSkipNext"
+			],
+			[
+				"on",
+				"onLoadHook"
+			],
+			[
+				"this",
+				"thistest"
+			],
+			[
+				"border-po",
+				"border-collapse"
+			],
+			[
+				"frame",
+				"frameToggled"
+			],
+			[
+				"fram",
+				"frameToggled"
+			],
+			[
+				"is",
+				"isVisiting"
+			],
+			[
+				"for",
+				"for\tfor (…) {…}"
+			],
+			[
+				"scrolledTo",
+				"scrolledToFeatureContainer"
+			],
+			[
+				"scrolled",
+				"scrolledToFeatureContainer"
+			],
+			[
+				"echo",
+				"echoWithPostWidth1"
+			],
+			[
+				"otherProe",
+				"otherProjectsRemainingPosts"
+			],
+			[
+				"var",
+				"var_dump"
+			],
+			[
+				"display_",
+				"display_feature_content"
+			],
+			[
+				"rg",
+				"rgba()"
+			],
+			[
+				"font",
+				"font-style"
+			],
+			[
+				"scroldi",
+				"currentScrollDirection"
+			],
+			[
+				"getElemen",
+				"getElementsByClassName"
+			],
+			[
+				"page",
+				"previousPageScrolled"
+			],
+			[
+				"pagees",
+				"pageScrolled200MS"
+			],
+			[
+				"get",
+				"getElementsByClassName"
+			],
+			[
+				"scroll",
+				"scrolledToFeatureContainer"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 6010,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/Users/E/AppData/Roaming/Sublime Text 3/Packages/LiveReload/LiveReload.sublime-settings",
+			"settings":
+			{
+				"buffer_size": 130,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "package control: install",
+		"selected_items":
+		[
+			[
+				"package control: install",
+				"Package Control: Install Package"
+			],
+			[
+				"package control: sat",
+				"Package Control: Satisfy Dependencies"
+			],
+			[
+				"package control remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"package control install",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: install",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"install pack",
+				"Package Control: Install Package"
+			],
+			[
+				"setsyntax php",
+				"Set Syntax: PHP"
+			],
+			[
+				"enable",
+				"SublimeLinter: Enable Linting"
+			],
+			[
+				"set syntax html",
+				"Set Syntax: HTML"
+			],
+			[
+				"set syntax php",
+				"Set Syntax: PHP"
+			],
+			[
+				"enable ",
+				"SublimeLinter: Disable Linting"
+			],
+			[
+				"syntax html",
+				"Set Syntax: HTML"
+			]
+		],
+		"width": 416.0
+	},
+	"console":
+	{
+		"height": 422.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/wamp/www/-Prosjekt-/0011 Udacity/09 Javascript basics - Online Resume/master"
+	],
+	"file_history":
+	[
+		"/C/wamp/www/-Prosjekt-/0011 Udacity/09 Javascript basics - Online Resume/master/index.sublime-project",
+		"/C/wamp/www/-Prosjekt-/test/js/resumeBuilder.js",
+		"/C/wamp/www/erling/wp-content/themes/t_fisk/css/style_small.css",
+		"/C/wamp/www/erling/wp-content/themes/t_fisk/css/style_medium.css",
+		"/C/wamp/www/erling/wp-content/themes/t_fisk/style.css",
+		"/C/wamp/www/erling/wp-content/themes/t_fisk/css/bootstrap.css",
+		"/C/wamp/www/erling/wp-content/themes/t_fisk/template-parts/content.php",
+		"/C/wamp/www/erling/wp-content/themes/t_fisk/footer.php",
+		"/C/wamp/www/erling/wp-content/themes/t_fisk/js/javascript-front-page.js",
+		"/C/wamp/www/erling/wp-content/themes/t_fisk/js/javascript.js",
+		"/C/wamp/www/erling/wp-content/themes/t_fisk/front-page.php",
+		"/C/wamp/www/erling/wp-content/themes/t_fisk/functions.php",
+		"/C/wamp/www/erling/wp-content/themes/t_fisk/header.php",
+		"/C/wamp/www/-Prosjekt-/0011 Udacity/06 jQuery practice change image/app.js",
+		"/E/Nedlastingar/merge-rrd/README",
+		"/E/Nedlastingar/merge-rrd/merged-rrd.py",
+		"/E/Nedlastingar/ss_poller.php",
+		"/C/Users/E/AppData/Local/Temp/Temp1_ApacheStats_0.8.2(1).zip/ApacheStats_0.8.2/ss_apache_stats.php",
+		"/E/Nedlastingar/test/cacti-netsnmp-lmsensors.0.9/cacti-netsnmp-lmsensors/scripts/ss_netsnmp_lmsensors.php",
+		"/E/Nedlastingar/bootstrap(1)/css/bootstrap.css",
+		"/E/Nedlastingar/bootstrap(1)/js/bootstrap.js",
+		"/C/wamp/www/erling/wp-content/themes/erling/plug-ins/TGM-Plugin-Activation-2.6.1/example.php",
+		"/C/wamp/www/erling/wp-content/themes/t_fisk/plug-ins/TGM-Plugin-Activation-2.6.1/README.md",
+		"/C/wamp/www/erling/wp-content/themes/t_fisk/plug-ins/TGM-Plugin-Activation-2.6.1/languages/tgmpa-cs_CZ.po",
+		"/C/wamp/www/erling/wp-content/themes/t_fisk/style_small.css",
+		"/C/wamp/www/erling/wp-content/themes/t_fisk/style_medium.css",
+		"/C/wamp/www/erling/wp-content/themes/t_fisk/img/style_medium.css",
+		"/C/wamp/www/erling/wp-content/themes/t_fisk/inc/custom-header.php",
+		"/C/wamp/www/erling/wp-content/themes/t_fisk/inc/extras.php",
+		"/C/Users/E/Desktop/subl",
+		"/C/Program Files/Git/bin/subl",
+		"/E/Documents/- - Prosjekt - -/00 Privat/02 Grafisk/160924 - WEB - Udacity command line basics/Vagrantfile",
+		"/C/wamp/www/erling/wp-content/themes/t_fisk/index.php",
+		"/C/wamp/www/erling/wp-content/themes/t_fisk/single.php",
+		"/C/wamp/www/erling/wp-content/themes/t_fisk/home.php",
+		"/C/wamp/www/erling/wp-content/themes/t_fisk ny/header.php",
+		"/C/wamp/www/erling/wp-content/themes/t_fisk ny/front-page.php",
+		"/C/wamp/www/erling/wp-content/themes/t_fisk ny/style.css",
+		"/E/ownCloud/Dokument/CV-sida/CV og søknad/02 Søknad/Søknad, hjelp.dat",
+		"/E/ownCloud/Dokument/CV-sida/CV og søknad/02 Søknad/Søknad.dat",
+		"/C/wamp/www/erling/wp-content/themes/t_fisk/template-parts/content-page.php",
+		"/C/wamp/www/erling/wp-content/themes/t_fisk/page.php",
+		"/C/wamp/www/erling/wp-content/themes/t_fisk/comments.php",
+		"/C/wamp/www/erling/wp-content/themes/t_fisk/sidebar.php",
+		"/C/wamp/www/erling/wp-config.php",
+		"/C/wamp/bin/apache/apache2.4.9/bin/php.ini",
+		"/C/wamp/www/-Prosjekt-/0008 Nyborg Pedagogikk/wp-content/themes/TESSERACT/dismissible_notice/src/init.php",
+		"/C/wamp/www/erling/wp-content/themes/t_fisk/js/skip-link-focus-fix.js",
+		"/C/wamp/www/erling/wp-content/themes/t_fisk/js/navigation.js",
+		"/C/wamp/www/erling/wp-content/themes/t_fisk/js/customizer.js",
+		"/C/wamp/www/erling/wp-content/themes/erling/home.php",
+		"/C/wamp/www/erling/wp-content/themes/erling/functions.php",
+		"/C/Users/E/Desktop/wp-config.php",
+		"/C/wamp/www/erling/wp-content/themes/erling/style_small.css",
+		"/C/wamp/www/erling/wp-content/themes/erling/style.css",
+		"/C/wamp/www/erling/wp-content/themes/erling/header.php",
+		"/C/wamp/www/erling/wp-content/themes/t_fisk/README.md",
+		"/C/wamp/www/erling/wp-content/themes/erling/footer.php",
+		"/E/Nedlastingar/page-scroll-effects/page-scroll-effects/index.html",
+		"/C/Users/E/Desktop/test2.html",
+		"/C/wamp/www/erling/wp-content/themes/erling/javascript.js",
+		"/C/wamp/www/erling/wp-content/themes/theme_unit_tester.xml",
+		"/E/Nedlastingar/page-scroll-effects/page-scroll-effects/css/style.css",
+		"/E/Nedlastingar/page-scroll-effects/page-scroll-effects/css/reset.css",
+		"/E/Nedlastingar/page-scroll-effects/page-scroll-effects/js/VELOCITY-LICENSE.md",
+		"/E/ownCloud/- Kun from mac -/CV HTML/style.css",
+		"/E/ownCloud/- Kun from mac -/CV HTML/index.html",
+		"/C/wamp/www/note/style.css",
+		"/E/OneDrive/+ Shared - Erling, Torstein og Jens Kristian +/- Prosjekt -/0004 Paddle Collision testing/javascript.js",
+		"/C/wamp/www/note/javascript.js",
+		"/C/wamp/www/note/index.html",
+		"/C/Users/E/Desktop/Counter.html",
+		"/E/OneDrive/+ Shared - Erling, Torstein og Jens Kristian +/- Prosjekt -/0011 T - Canvas Clock/javascript.js",
+		"/E/OneDrive/+ Shared - Erling, Torstein og Jens Kristian +/- Prosjekt -/0011 T - Canvas Clock/index.html",
+		"/C/Users/E/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/E/OneDrive/+ Shared - Erling, Torstein og Jens Kristian +/- Prosjekt -/0011 T - Canvas Clock/stylesheet.css",
+		"/C/wamp/www/note/index.htlm",
+		"/E/Nedlastingar/maze-generator-master/maze-generator-master/example.html",
+		"/E/Nedlastingar/maze-generator-master/maze-generator-master/mazegenerator.js",
+		"/E/OneDrive/+ Shared - Erling, Torstein og Jens Kristian +/- Prosjekt -/0012 T - RPG/RPG Level editor/mapdata.js",
+		"/C/Users/E/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/E/Desktop/Sublime custom material theme settings.sublime-settings",
+		"/E/OneDrive/+ Shared - Erling, Torstein og Jens Kristian +/- Prosjekt -/0008 T - 2D orbit/javascript.js",
+		"/C/wamp/www/test/index.html",
+		"/C/Users/E/Desktop/test.html",
+		"/E/OneDrive/+ Shared - Erling, Torstein og Jens Kristian +/- Prosjekt -/0009 T - Draw with mouse/javascript.js",
+		"/E/OneDrive/+ Shared - Erling, Torstein og Jens Kristian +/- Prosjekt -/Testar og tull/Table test/table test.html",
+		"/C/Users/E/Desktop/config.php",
+		"/E/OneDrive/+ Shared - Erling, Torstein og Jens Kristian +/- Prosjekt -/0008 T - 2D orbit/stylesheet.css",
+		"/E/OneDrive/- Shared - Erling, Torstein og Jens Kristian/- Prosjekt -/0004 Paddle Collision testing/index.html",
+		"/E/OneDrive/- Shared - Erling, Torstein og Jens Kristian/- Prosjekt -/0004 Paddle Collision testing/style.css",
+		"/C/Users/E/Desktop/dsfg.html"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"animation",
+			"delays",
+			"logo-",
+			"footer",
+			"ommegportrett",
+			"om_meg",
+			"ommeg",
+			"251",
+			"mejs",
+			"slideshow",
+			"\"",
+			".container",
+			",container",
+			"alert",
+			"alert(",
+			"determineWindow",
+			"80",
+			"p {",
+			"startIntroSlideshow",
+			"slideShow",
+			".site",
+			"#header",
+			"header",
+			"5",
+			"15px",
+			"## Posts and pages",
+			"header_fill_visible",
+			"frame",
+			"0.2",
+			"header",
+			"determineWindowSize",
+			"determineWindowSize ",
+			"determineWindowSize",
+			"determineWindowSize ",
+			"content_featured_image",
+			"content_header_wrapper",
+			"entry_header",
+			"#main",
+			"main",
+			"site-main",
+			"entry_header",
+			"content_header_wrapper",
+			"content_featured_image",
+			"entry_heading_container",
+			"60",
+			"content_section_wrapper",
+			"content_section",
+			"content_section_padding",
+			"entry_content",
+			"entry_content_wrapper",
+			"entry_header",
+			"@media",
+			"other_pojects",
+			"other_pro",
+			"@media",
+			"4rem",
+			"#intro",
+			"display_feature_text",
+			"på veg",
+			"6000",
+			"notification",
+			"notificationIn",
+			"  0% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 350, 0, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 350, 0, 0, 1); }\n  2.53% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 170.005, 0, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 170.005, 0, 0, 1); }\n  5.06% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 42.495, 0, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 42.495, 0, 0, 1); }\n  7.6% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -18.297, 0, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -18.297, 0, 0, 1); }\n  10.13% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -32.667, 0, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -32.667, 0, 0, 1); }\n  16.66% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -7.219, 0, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -7.219, 0, 0, 1); }\n  23.2% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2.181, 0, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2.181, 0, 0, 1); }\n  36.27% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.146, 0, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.146, 0, 0, 1); }\n  41.08% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.064, 0, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.064, 0, 0, 1); }\n  41.18% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.062, 0, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.062, 0, 0, 1); }\n  43.06% { -webkit-transform: matrix3d(1.133, 0, 0, 0, 0, 1.133, 0, 0, 0, 0, 1, 0, -0.028, 0, 0, 1); transform: matrix3d(1.133, 0, 0, 0, 0, 1.133, 0, 0, 0, 0, 1, 0, -0.028, 0, 0, 1); }\n  44.94% { -webkit-transform: matrix3d(1.165, 0, 0, 0, 0, 1.165, 0, 0, 0, 0, 1, 0, -0.006, 0, 0, 1); transform: matrix3d(1.165, 0, 0, 0, 0, 1.165, 0, 0, 0, 0, 1, 0, -0.006, 0, 0, 1); }\n  48.65% { -webkit-transform: matrix3d(1.106, 0, 0, 0, 0, 1.106, 0, 0, 0, 0, 1, 0, 0.009, 0, 0, 1); transform: matrix3d(1.106, 0, 0, 0, 0, 1.106, 0, 0, 0, 0, 1, 0, 0.009, 0, 0, 1); }\n  49.4% { -webkit-transform: matrix3d(1.089, 0, 0, 0, 0, 1.089, 0, 0, 0, 0, 1, 0, 0.01, 0, 0, 1); transform: matrix3d(1.089, 0, 0, 0, 0, 1.089, 0, 0, 0, 0, 1, 0, 0.01, 0, 0, 1); }\n  52.31% { -webkit-transform: matrix3d(1.035, 0, 0, 0, 0, 1.035, 0, 0, 0, 0, 1, 0, 0.007, 0, 0, 1); transform: matrix3d(1.035, 0, 0, 0, 0, 1.035, 0, 0, 0, 0, 1, 0, 0.007, 0, 0, 1); }\n  56.01% { -webkit-transform: matrix3d(0.999, 0, 0, 0, 0, 0.999, 0, 0, 0, 0, 1, 0, 0.002, 0, 0, 1); transform: matrix3d(0.999, 0, 0, 0, 0, 0.999, 0, 0, 0, 0, 1, 0, 0.002, 0, 0, 1); }\n  58.82% { -webkit-transform: matrix3d(0.992, 0, 0, 0, 0, 0.992, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(0.992, 0, 0, 0, 0, 0.992, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }\n  59.67% { -webkit-transform: matrix3d(0.992, 0, 0, 0, 0, 0.992, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(0.992, 0, 0, 0, 0, 0.992, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }\n  74.39% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }\n  89.11% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }\n  100% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(1, ",
+			"  0% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 350, 0, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 350, 0, 0, 1); }\n  2.53% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 170.005, 0, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 170.005, 0, 0, 1); }\n  5.06% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 42.495, 0, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 42.495, 0, 0, 1); }\n  7.6% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -18.297, 0, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -18.297, 0, 0, 1); }\n  10.13% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -32.667, 0, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -32.667, 0, 0, 1); }\n  16.66% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -7.219, 0, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -7.219, 0, 0, 1); }\n  23.2% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2.181, 0, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2.181, 0, 0, 1); }\n",
+			"  0% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 350, 0, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 350, 0, 0, 1); }\n",
+			"animation",
+			"18rem",
+			"200,",
+			"200",
+			"300",
+			"toggleBeta",
+			"animation",
+			".5",
+			"60",
+			"150",
+			"beta",
+			"linear",
+			"#intro",
+			"## Next Page transition",
+			".site",
+			".site {",
+			"ease",
+			".css",
+			"clickedALink",
+			"border",
+			"console",
+			"newPosition",
+			"scrollToClosest",
+			"}\n",
+			"@media",
+			"other_projects_img_overlay_toggled",
+			"other_projects_hover",
+			"<div class=\"other_projects_img_overlay\"></div>",
+			"<div class=\"other_projects_img_overlay\"></div>\n\t\t\t\t\t\t\t\t\t<div class=\"other",
+			"\" onmouseover=\"console.log(this.childNodes[1].childNodes[1].childNodes[1].style.opacity = 0);\"",
+			"[0]",
+			"postObject",
+			"dump(",
+			"otherProjectsIndex",
+			"i",
+			"$otherProjectsColumnNumber",
+			"$otherProjectsRowNumber",
+			")):",
+			"$i",
+			"  ",
+			"100",
+			"startIntroSlide",
+			"\"",
+			"next_page_transition_target",
+			"onReadyFunction",
+			"onLoadHook",
+			"onReadyHook",
+			".site",
+			"Next page transition",
+			"## Menus",
+			"ease-out",
+			"test",
+			"greey",
+			"right",
+			"left",
+			"other_project",
+			"20",
+			"200",
+			"color:",
+			".opacity = 0",
+			"## Links",
+			"a {",
+			"top"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6010,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1331,
+								1331
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Material-Theme-OceanicNext (SL).tmTheme",
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 204.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/C/Users/E/AppData/Roaming/Sublime Text 3/Packages/LiveReload/LiveReload.sublime-settings",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 130,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								130,
+								130
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "index.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"index",
+				"index.html"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 221.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
