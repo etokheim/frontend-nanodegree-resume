@@ -19,34 +19,40 @@ var bio = {
 		"Web designer"
 	],
 
-	"biopic": "",
+	"biopic": "https://s-media-cache-ak0.pinimg.com/236x/5e/e6/95/5ee695e34856d22c2538a22133f3f4e8.jpg",
 
 	"display": function() {
-		var formattedHeaderName = HTMLheaderName.replace("%data%", this.name);
-		$("#header").append(formattedHeaderName);
-
 		var formattedRole = HTMLheaderRole.replace("%data%", this.role);
-		$("#header").append(formattedRole);
+		$("#header").prepend(formattedRole);
 
-		var formattedMobile = HTMLcontactGeneric.replace("%contact%", "Mobile");
-		formattedMobile = formattedMobile.replace("%data%", this.contacts.mobile);
-		$("#topContacts").append(formattedMobile);
+		var formattedHeaderName = HTMLheaderName.replace("%data%", this.name);
+		$("#header").prepend(formattedHeaderName);
 
-		var formattedEmail = HTMLcontactGeneric.replace("%contact%", "e-mail");
-		formattedEmail = formattedEmail.replace("%data%", this.contacts.email);
-		$("#topContacts").append(formattedEmail);
+		var formattedMobile = HTMLmobile.replace("%data%", this.contacts.mobile);
+		var formattedEmail = HTMLemail.replace("%data%", this.contacts.email);
+		var formattedGithub = HTMLgithub.replace("%data%", this.contacts.github);
+		var formattedTwitter = HTMLtwitter.replace("%data%", this.contacts.twitter);
+		var formattedLocation = HTMLlocation.replace("%data%", this.contacts.location);
 
-		var formattedGithub = HTMLcontactGeneric.replace("%contact%", "GitHub");
-		formattedGithub = formattedGithub.replace("%data%", this.contacts.github);
-		$("#topContacts").append(formattedGithub);
+		// Concatenates the contact information
+		var concatenatedContactInfo = formattedMobile + formattedEmail + formattedGithub + formattedTwitter + formattedLocation;
 
-		var formattedTwitter = HTMLcontactGeneric.replace("%contact%", "Twitter");
-		formattedTwitter = formattedTwitter.replace("%data%", this.contacts.twitter);
-		$("#topContacts").append(formattedTwitter);
+		$("#topContacts").append(concatenatedContactInfo);
 
-		var formattedLocation = HTMLcontactGeneric.replace("%contact%", "Location");
-		formattedLocation = formattedLocation.replace("%data%", this.contacts.location);
-		$("#topContacts").append(formattedLocation);
+		var formattedBioPic = HTMLbioPic.replace("%data%", this.biopic);
+		$("#header").append(formattedBioPic);
+
+		var formattedWelcomeMsg = HTMLwelcomeMsg.replace("%data%", this.welcomeMessage);
+		$("#header").append(formattedWelcomeMsg);
+
+		$("#header").append(HTMLskillsStart);
+
+		this.skills.forEach(function(skill) {
+			var formattedSkills = HTMLskills.replace("%data%", skill);
+			$("#skills").append(formattedSkills);
+		});
+
+		$("#footerContacts").append(concatenatedContactInfo);
 	}
 }
 
@@ -57,14 +63,16 @@ var education = {
 			"city": "Ølensvåg",
 			"degree": "Generell studiekompetanse",
 			"major": "None",
-			"location": "Lundeneset vidaregåande skule"
+			"location": "Lundeneset vidaregåande skule",
+			"dates": "2016"
 		},
 		{
 			"name": "Lundeneset vidaregåande skule",
 			"city": "Ølensvåg",
 			"degree": "Media and communication",
 			"major": "None",
-			"location": "Lundeneset vidaregåande skule"
+			"location": "Lundeneset vidaregåande skule",
+			"dates": "2016"
 		}
 	],
 
@@ -82,8 +90,50 @@ var education = {
 			"dates": "2016",
 			"url": "lynda.com/typography"
 		}
-	]
+	],
+
+	"display": function() {
+		// Creates a new div with the education-entry class inside #education
+		$("#education").append(HTMLschoolStart);
+
+		// Loop to display school information
+		this.schools.forEach(function(school) {
+			var formattedName = HTMLschoolName.replace("%data%", school.name);
+			var formattedDegree = HTMLschoolDegree.replace("%data%", school.degree);
+			$(".education-entry").append(formattedName + formattedDegree);
+
+			var formattedDates = HTMLschoolDates.replace("%data%", school.dates);
+			$(".education-entry").append(formattedDates);
+
+			var formattedLocation = HTMLschoolLocation.replace("%data%", school.location);
+			$(".education-entry").append(formattedLocation);
+
+			var formattedMajor = HTMLschoolMajor.replace("%data%", school.major);
+			$(".education-entry").append(formattedMajor);
+		});
+
+		// Creates a new div with the education-entry class inside #education
+		$("#education").append(HTMLschoolStart);
+
+		// Appends the h3 (Online Classes)
+		$(".education-entry:last").append(HTMLonlineClasses);
+
+		this.onlineCourses.forEach(function(course) {
+			var formattedTitle = HTMLonlineTitle.replace("%data%", course.title);
+			var formattedSchool = HTMLonlineSchool.replace("%data%", course.school);
+			$(".education-entry:last").append(formattedTitle + formattedSchool);
+
+			var formattedDates = HTMLonlineDates.replace("%data%", course.dates);
+			$(".education-entry:last").append(formattedDates);
+
+			var formattedUrl = HTMLonlineURL.replace("%data%", course.url);
+			$(".education-entry:last").append(formattedUrl);
+		});
+
+	}
 }
+
+education.display();
 
 var work = {
 	"jobs": [
@@ -110,15 +160,18 @@ var work = {
 			$("#workExperience").append(HTMLworkStart);
 
 			// Concat employer and title
-			var formattedEmployer = HTMLworkEmployer.replace("%data%", work.jobs[job].employer);
-			var formattedTitle = HTMLworkTitle.replace("%data%", work.jobs[job].title);
+			var formattedEmployer = HTMLworkEmployer.replace("%data%", this.jobs[job].employer);
+			var formattedTitle = HTMLworkTitle.replace("%data%", this.jobs[job].title);
 			var formattedEmployerTitle = formattedEmployer + formattedTitle;
 			$(".work-entry:last").append(formattedEmployerTitle);
 
-			var formattedDates = HTMLworkDates.replace("%data%", work.jobs[job].dates);
+			var formattedDates = HTMLworkDates.replace("%data%", this.jobs[job].dates);
 			$(".work-entry:last").append(formattedDates);
 
-			var formattedDescription = HTMLworkDescription.replace("%data%", work.jobs[job].description);
+			var formattedLocation = HTMLworkLocation.replace("%data%", this.jobs[job].location);
+			$(".work-entry:last").append(formattedLocation);
+
+			var formattedDescription = HTMLworkDescription.replace("%data%", this.jobs[job].description);
 			$(".work-entry:last").append(formattedDescription);
 		}
 	}
