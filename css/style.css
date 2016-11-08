@@ -107,6 +107,10 @@ p {
 
 a {
 	color: #1199c3;
+	text-transform: uppercase;
+	font-weight: 400;
+	font-size: .9rem;
+	padding-bottom: 7px;
 	text-decoration: none;
 	margin-top: 10px;
 	display: block;
@@ -161,7 +165,7 @@ a {
 
 .white-text {
 	/*font-weight: bold;*/
-	color: #444;
+	color: #1199c3;
 }
 
 .gray {
@@ -179,9 +183,15 @@ a {
 
 #name {
 	font-size: 25px;
-	margin-top: 55px;
+	margin-top: 30px;
 	display: block;
 	font-weight: 400;
+}
+
+#header > h1 + span {
+	color: #999;
+	padding-top: 0;
+	margin-top: -3px;
 }
 
 #header > span {
@@ -227,13 +237,18 @@ a {
 }
 
 #skills li {
-	background: #eee;
+	background: #1199c3;
 	padding: 10px;
 	font-size: .8rem;
 	border-radius: 5px;
 	margin-top: 10px;
 	margin-left: 10px;
 	text-align: center;
+	color: #fff !important;
+}
+
+#skills li > span {
+	color: #fff;
 }
 
 .biopic {
@@ -252,7 +267,7 @@ a {
 }
 
 #header, #workExperience, #projects, #education, #mapDiv {
-	padding: 20px 60px;
+	padding: 30px 60px;
 }
 
 .work-entry, .project-entry, .education-entry {
