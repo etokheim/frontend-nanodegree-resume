@@ -16,7 +16,8 @@ var bio = {
 	"skills": [
 		"Awesome",
 		"Designer",
-		"Web designer"
+		"Web designer",
+		"Media Graphics Artist"
 	],
 
 	"biopic": "images/biopic.jpg",
@@ -169,7 +170,6 @@ var work = {
 			// create new div for work experiences
 			$("#workExperience").append(HTMLworkStart);
 
-			// Concatenate employer and title
 			var formattedEmployer = HTMLworkEmployer.replace("%data%", this.jobs[job].employer);
 			var formattedTitle = HTMLworkTitle.replace("%data%", this.jobs[job].title);
 			$(".work-entry:last").append(formattedEmployer + formattedTitle);
