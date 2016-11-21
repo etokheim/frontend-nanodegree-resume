@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"obje",
+				"object-fit"
+			],
+			[
 				"notifi",
 				"notificationShowing"
 			],
@@ -108,19 +112,10 @@
 	"buffers":
 	[
 		{
-			"file": "index.html",
+			"file": "css/style.css",
 			"settings":
 			{
-				"buffer_size": 6010,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/C/Users/E/AppData/Roaming/Sublime Text 3/Packages/LiveReload/LiveReload.sublime-settings",
-			"settings":
-			{
-				"buffer_size": 130,
+				"buffer_size": 4605,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -133,10 +128,18 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 392.0,
-		"last_filter": "package control: install",
+		"height": 106.0,
+		"last_filter": "packageinstall",
 		"selected_items":
 		[
+			[
+				"packageinstall",
+				"Package Control: Install Package"
+			],
+			[
+				"LiveReload: Enable/disable plugins",
+				"LiveReload: Enable/disable plug-ins"
+			],
 			[
 				"package control: install",
 				"Package Control: Install Package"
@@ -190,7 +193,7 @@
 				"Set Syntax: HTML"
 			]
 		],
-		"width": 416.0
+		"width": 432.0
 	},
 	"console":
 	{
@@ -215,6 +218,13 @@
 	],
 	"file_history":
 	[
+		"/C/wamp/www/-Prosjekt-/0011 Udacity/09 Javascript basics - Online Resume/master/index.html",
+		"/C/wamp/www/-Prosjekt-/0011 Udacity/09 Javascript basics - Online Resume/master/js/helper.js",
+		"/C/wamp/www/-Prosjekt-/0011 Udacity/09 Javascript basics - Online Resume/master/js/resumeBuilder.js",
+		"/C/wamp/www/-Prosjekt-/0011 Udacity/09 Javascript basics - Online Resume/master/README.md",
+		"/C/wamp/www/-Prosjekt-/0011 Udacity/09 Javascript basics - Online Resume/master/css/style.css",
+		"/C/wamp/www/-Prosjekt-/0011 Udacity/12 working with image data/index.html",
+		"/C/Users/E/AppData/Roaming/Sublime Text 3/Packages/LiveReload/LiveReload.sublime-settings",
 		"/C/wamp/www/-Prosjekt-/0011 Udacity/09 Javascript basics - Online Resume/master/index.sublime-project",
 		"/C/wamp/www/-Prosjekt-/test/js/resumeBuilder.js",
 		"/C/wamp/www/erling/wp-content/themes/t_fisk/css/style_small.css",
@@ -324,6 +334,82 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"entry",
+			"skills",
+			"welcome",
+			"margin-top: 10",
+			".welcome-message",
+			"white",
+			">",
+			"entry",
+			"#workEx",
+			"h3",
+			"skills-h3",
+			"background-color: #00",
+			"skills",
+			"workExpe",
+			"work",
+			"skills",
+			"li",
+			"ul",
+			"topConta",
+			"todo",
+			"1",
+			"200px",
+			"name",
+			"main",
+			"clear",
+			"head",
+			"vidaregåande",
+			"--",
+			"butikk",
+			"// $(\"",
+			"append",
+			"// Creates a new div with the education-entry class",
+			".education-entry",
+			"MLschool",
+			"school.",
+			"School.",
+			"school.",
+			"school.t",
+			"dates",
+			"Dates",
+			"title",
+			"Title",
+			"School",
+			"school",
+			"School",
+			"title",
+			"Title",
+			"major",
+			"Major",
+			"location",
+			"Location",
+			"dates",
+			"Dates",
+			"\"location\": \"Lundeneset vidaregåande skule\"",
+			"formattedDates",
+			"degree",
+			"Degree",
+			"work.j",
+			"work",
+			"last",
+			"%contact%\"",
+			"%contact%",
+			"contact",
+			"this",
+			"\tformatted",
+			"$(\"#topContacts\").appen",
+			"$(\"#header\").append",
+			"\t\t$(\"#header\").append(formattedRole);\n",
+			"formattedGithub",
+			"formattedEmail",
+			"formattedMobile",
+			"formattedContacts",
+			"contacts",
+			"Contacts",
+			"this",
+			"formattedHeaderName",
 			"animation",
 			"delays",
 			"logo-",
@@ -375,83 +461,7 @@
 			"entry_content",
 			"entry_content_wrapper",
 			"entry_header",
-			"@media",
-			"other_pojects",
-			"other_pro",
-			"@media",
-			"4rem",
-			"#intro",
-			"display_feature_text",
-			"på veg",
-			"6000",
-			"notification",
-			"notificationIn",
-			"  0% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 350, 0, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 350, 0, 0, 1); }\n  2.53% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 170.005, 0, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 170.005, 0, 0, 1); }\n  5.06% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 42.495, 0, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 42.495, 0, 0, 1); }\n  7.6% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -18.297, 0, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -18.297, 0, 0, 1); }\n  10.13% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -32.667, 0, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -32.667, 0, 0, 1); }\n  16.66% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -7.219, 0, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -7.219, 0, 0, 1); }\n  23.2% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2.181, 0, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2.181, 0, 0, 1); }\n  36.27% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.146, 0, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.146, 0, 0, 1); }\n  41.08% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.064, 0, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.064, 0, 0, 1); }\n  41.18% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.062, 0, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.062, 0, 0, 1); }\n  43.06% { -webkit-transform: matrix3d(1.133, 0, 0, 0, 0, 1.133, 0, 0, 0, 0, 1, 0, -0.028, 0, 0, 1); transform: matrix3d(1.133, 0, 0, 0, 0, 1.133, 0, 0, 0, 0, 1, 0, -0.028, 0, 0, 1); }\n  44.94% { -webkit-transform: matrix3d(1.165, 0, 0, 0, 0, 1.165, 0, 0, 0, 0, 1, 0, -0.006, 0, 0, 1); transform: matrix3d(1.165, 0, 0, 0, 0, 1.165, 0, 0, 0, 0, 1, 0, -0.006, 0, 0, 1); }\n  48.65% { -webkit-transform: matrix3d(1.106, 0, 0, 0, 0, 1.106, 0, 0, 0, 0, 1, 0, 0.009, 0, 0, 1); transform: matrix3d(1.106, 0, 0, 0, 0, 1.106, 0, 0, 0, 0, 1, 0, 0.009, 0, 0, 1); }\n  49.4% { -webkit-transform: matrix3d(1.089, 0, 0, 0, 0, 1.089, 0, 0, 0, 0, 1, 0, 0.01, 0, 0, 1); transform: matrix3d(1.089, 0, 0, 0, 0, 1.089, 0, 0, 0, 0, 1, 0, 0.01, 0, 0, 1); }\n  52.31% { -webkit-transform: matrix3d(1.035, 0, 0, 0, 0, 1.035, 0, 0, 0, 0, 1, 0, 0.007, 0, 0, 1); transform: matrix3d(1.035, 0, 0, 0, 0, 1.035, 0, 0, 0, 0, 1, 0, 0.007, 0, 0, 1); }\n  56.01% { -webkit-transform: matrix3d(0.999, 0, 0, 0, 0, 0.999, 0, 0, 0, 0, 1, 0, 0.002, 0, 0, 1); transform: matrix3d(0.999, 0, 0, 0, 0, 0.999, 0, 0, 0, 0, 1, 0, 0.002, 0, 0, 1); }\n  58.82% { -webkit-transform: matrix3d(0.992, 0, 0, 0, 0, 0.992, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(0.992, 0, 0, 0, 0, 0.992, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }\n  59.67% { -webkit-transform: matrix3d(0.992, 0, 0, 0, 0, 0.992, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(0.992, 0, 0, 0, 0, 0.992, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }\n  74.39% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }\n  89.11% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }\n  100% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(1, ",
-			"  0% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 350, 0, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 350, 0, 0, 1); }\n  2.53% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 170.005, 0, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 170.005, 0, 0, 1); }\n  5.06% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 42.495, 0, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 42.495, 0, 0, 1); }\n  7.6% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -18.297, 0, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -18.297, 0, 0, 1); }\n  10.13% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -32.667, 0, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -32.667, 0, 0, 1); }\n  16.66% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -7.219, 0, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -7.219, 0, 0, 1); }\n  23.2% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2.181, 0, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2.181, 0, 0, 1); }\n",
-			"  0% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 350, 0, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 350, 0, 0, 1); }\n",
-			"animation",
-			"18rem",
-			"200,",
-			"200",
-			"300",
-			"toggleBeta",
-			"animation",
-			".5",
-			"60",
-			"150",
-			"beta",
-			"linear",
-			"#intro",
-			"## Next Page transition",
-			".site",
-			".site {",
-			"ease",
-			".css",
-			"clickedALink",
-			"border",
-			"console",
-			"newPosition",
-			"scrollToClosest",
-			"}\n",
-			"@media",
-			"other_projects_img_overlay_toggled",
-			"other_projects_hover",
-			"<div class=\"other_projects_img_overlay\"></div>",
-			"<div class=\"other_projects_img_overlay\"></div>\n\t\t\t\t\t\t\t\t\t<div class=\"other",
-			"\" onmouseover=\"console.log(this.childNodes[1].childNodes[1].childNodes[1].style.opacity = 0);\"",
-			"[0]",
-			"postObject",
-			"dump(",
-			"otherProjectsIndex",
-			"i",
-			"$otherProjectsColumnNumber",
-			"$otherProjectsRowNumber",
-			")):",
-			"$i",
-			"  ",
-			"100",
-			"startIntroSlide",
-			"\"",
-			"next_page_transition_target",
-			"onReadyFunction",
-			"onLoadHook",
-			"onReadyHook",
-			".site",
-			"Next page transition",
-			"## Menus",
-			"ease-out",
-			"test",
-			"greey",
-			"right",
-			"left",
-			"other_project",
-			"20",
-			"200",
-			"color:",
-			".opacity = 0",
-			"## Links",
-			"a {",
-			"top"
+			"@media"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -469,67 +479,44 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "index.html",
+					"file": "css/style.css",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 6010,
+						"buffer_size": 4605,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1331,
-								1331
+								1223,
+								1223
 							]
 						],
 						"settings":
 						{
 							"color_scheme": "Packages/User/Color Highlighter/themes/Material-Theme-OceanicNext (SL).tmTheme",
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 204.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "/C/Users/E/AppData/Roaming/Sublime Text 3/Packages/LiveReload/LiveReload.sublime-settings",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 130,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								130,
-								130
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JSON.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1369.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
 					"type": "text"
 				}
+			]
+		},
+		{
+			"sheets":
+			[
 			]
 		}
 	],
@@ -539,7 +526,7 @@
 	},
 	"input":
 	{
-		"height": 0.0
+		"height": 33.0
 	},
 	"layout":
 	{
@@ -550,11 +537,18 @@
 				0,
 				1,
 				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
 			]
 		],
 		"cols":
 		[
 			0.0,
+			0.455267804591,
 			1.0
 		],
 		"rows":
@@ -581,6 +575,26 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"style.css",
+				"css\\style.css"
+			],
+			[
+				"read",
+				"README.md"
+			],
+			[
+				"helper",
+				"js\\helper.js"
+			],
+			[
+				"js",
+				"js\\resumeBuilder.js"
+			],
+			[
+				"css",
+				"css\\style.css"
+			],
 			[
 				"index",
 				"index.html"
