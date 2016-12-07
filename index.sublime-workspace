@@ -119,6 +119,17 @@
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
+		},
+		{
+			"contents": "Package Control Messages\n========================\n\nMaterialize\n-----------\n\n   __  __       _            _       _   _\n  |  \\/  |     | |          (_)     | | (_)\n  | \\  / | __ _| |_ ___ _ __ _  __ _| |  _ _______\n  | |\\/| |/ _` | __/ _ \\ '__| |/ _` | | | |_  / _ \\\n  | |  | | (_| | ||  __/ |  | | (_| | | | |/ /  __/\n  \\_|  |_/\\__,_|\\__\\___|_|  |_|\\__,_|_| |_/___\\___|\n  \n  Materialize\n  https://github.com/saadq/Materialize\n  \n  Thanks for installing Materialize!\n  \n  Check out https://github.com/saadq/Materialize/screenshots.md for more visuals.\n  \n  ******************************************************************************\n  \n  Activation\n  -----------\n  Based on the theme you want to use, update your user preferences at  **(Preferences > Setting - User)** with the following:\n  \n  For example:\n  \n  Material Brogrammer\n  {\n      \"color_scheme\": \"Packages/Materialize/schemes/Material Brogrammer.tmTheme\",\n      \"theme\": \"Material Brogrammer.sublime-theme\"\n  }\n  \n  Contrast Mode\n  --------------\n  You can activate contrast mode by adding the following to your preferences:\n  {\n      \"material_theme_contrast_mode\": true\n  }\n  \n  MAKE SURE TO RESTART SUBLIME AFTER ACTIVATING THE THEME\n  ******************************************************************************\n  \n  Recommended UI and font settings:\n  I suggest that you use the following custom settings for a better experience with the theme:\n  \n  {\n      \"overlay_scroll_bars\": \"enabled\",\n      \"line_padding_top\": 3,\n      \"line_padding_bottom\": 3,\n      // On retina Mac\n      \"font_options\": [ \"gray_antialias\" ],\n      \"always_show_minimap_viewport\": true,\n      \"bold_folder_labels\": true,\n      // Highlight active indent\n      \"indent_guide_options\": [ \"draw_normal\", \"draw_active\" ]\n  }\n  \n  ******************************************************************************\n",
+			"settings":
+			{
+				"buffer_size": 1853,
+				"line_ending": "Windows",
+				"name": "Package Control Messages",
+				"read_only": true,
+				"scratch": true
+			}
 		}
 	],
 	"build_system": "",
@@ -128,7 +139,7 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 106.0,
+		"height": 227.0,
 		"last_filter": "packageinstall",
 		"selected_items":
 		[
@@ -193,7 +204,7 @@
 				"Set Syntax: HTML"
 			]
 		],
-		"width": 432.0
+		"width": 527.0
 	},
 	"console":
 	{
@@ -214,7 +225,7 @@
 	},
 	"expanded_folders":
 	[
-		"/C/wamp/www/-Prosjekt-/0011 Udacity/09 Javascript basics - Online Resume/master"
+		"/C/Users/erlin/Desktop/Udacity/01 Front-end course/06 Online Resume/02 Project - Javascript basics - Online Resume/master"
 	],
 	"file_history":
 	[
@@ -479,7 +490,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -507,6 +518,36 @@
 						},
 						"translation.x": 0.0,
 						"translation.y": 1369.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1853,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1853,
+								1853
+							]
+						],
+						"settings":
+						{
+							"auto_indent": false,
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_width": 2,
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
