@@ -1,3 +1,11 @@
+/*
+	Disclaimer
+		This style sheet is poorly written. Please forgive me, I made it just for fun.
+		
+		If you feel sad, please visit the following link:
+		http://static.boredpanda.com/blog/wp-content/uploads/2014/03/cute-smiling-animals-251.jpg
+*/
+
 * {
 	box-sizing: border-box;
 }
@@ -23,7 +31,12 @@ hr {
 }
 
 img {
-	max-width: 100%;
+	max-width: 33.332%;
+	max-height: 400px;
+}
+
+img:hover {
+	cursor: pointer;
 }
 
 .clear-fix {

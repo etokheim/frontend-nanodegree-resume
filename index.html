@@ -8,15 +8,30 @@
 		<title>Erling Tokheim - Resume</title>
 
 		<!-- Load the page styles. -->
-		<link href="css/style.css" rel="stylesheet">
+		<link id="stylesheet" href="css/style_new.css" rel="stylesheet">
 
 		<!-- Script needed for Google maps integration -->
 		<script src="http://maps.googleapis.com/maps/api/js?libraries=places&key=AIzaSyBxaRfeTwSjp8rx6Mh-0R_TPNboRa9QRac"></script>
 
 		<!-- For better mobile support -->
-		<meta name="viewport" content="width=device-width,initial-scale=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<style>
+			#toggleStylesheets {
+				position: fixed;
+				top: 15px;
+				right: 15px;
+				background-color: #999;
+				border-radius: 5px;
+				border: none;
+				padding: 8px;
+				color: #fff;
+				box-shadow: 0px 0px 30px rgba(0, 0, 0, 0);
+			}
+		</style>
 	</head>
 	<body>
+		<button id="toggleStylesheets">Toggle stylesheets</button>
 		<div id="main">
 			<div id="header" class="center-content clear-fix">
 				<ul id="topContacts" class="flex-box"></ul>
