@@ -58,8 +58,7 @@ var bio = {
 };
 
 var education = {
-	"schools": [
-		{
+	"schools": [{
 			"name": "Lundeneset High School",
 			"city": "Ølensvåg",
 			"degree": "Higher Education Entrance Qualification",
@@ -87,8 +86,7 @@ var education = {
 		}
 	],
 
-	"onlineCourses": [
-		{
+	"onlineCourses": [{
 			"title": "Front-end Web Developer",
 			"school": "Udacity",
 			"dates": "2016",
@@ -146,8 +144,7 @@ var education = {
 };
 
 var work = {
-	"jobs": [
-		{
+	"jobs": [{
 			"employer": "Norwegian Agriculture Service",
 			"title": "Relief worker (farm)",
 			"dates": "2011-2012",
@@ -182,20 +179,18 @@ var work = {
 
 			var formattedDescription = HTMLworkDescription.replace("%data%", job.description);
 			$(".work-entry:last").append(formattedDescription);
-			
+
 		});
 	}
 };
 
 var projects = {
-	"projects": [
-		{
-			"title": "Meme gathering project",
-			"dates": "2016",
-			"description": "I learned a lot from this project. It really took my meme understanding to a whole new level!",
-			"images": ["images/meme1.jpg", "images/meme2.jpg", "images/meme3.jpg"]
-		}
-	],
+	"projects": [{
+		"title": "Meme gathering project",
+		"dates": "2016",
+		"description": "I learned a lot from this project. It really took my meme understanding to a whole new level!",
+		"images": ["images/meme1.jpg", "images/meme2.jpg", "images/meme3.jpg"]
+	}],
 
 	"display": function() {
 		projects.projects.forEach(function(project) {
@@ -212,7 +207,7 @@ var projects = {
 			$(".project-entry:last").append(formattedDescription);
 
 			project.images.forEach(function(image) {
-				if(image.length > 0) {
+				if (image.length > 0) {
 					var formattedImage = HTMLprojectImage.replace("%data%", image);
 					$(".project-entry:last").append(formattedImage);
 				}
@@ -240,7 +235,7 @@ var originalStyles = "css/style_new.css",
 	newStyles;
 
 function toggleStylesheets() {
-	if(displayingOriginalStyles) {
+	if (displayingOriginalStyles) {
 		newStyles = customStyles;
 		displayingOriginalStyles = false;
 	} else {
