@@ -60,29 +60,32 @@ var bio = {
 var education = {
 	"schools": [{
 			"name": "Lundeneset High School",
-			"city": "Ølensvåg",
+			"location": "Ølensvåg",
 			"degree": "Higher Education Entrance Qualification",
-			"major": "None",
-			"location": "Lundeneset High School",
-			"dates": "2013 - 2014"
+			"majors": "None",
+			"school": "Lundeneset High School",
+			"dates": "2013 - 2014",
+			"url": "http://lvs.no/"
 		},
 
 		{
 			"name": "Lundeneset High School",
-			"city": "Ølensvåg",
+			"location": "Ølensvåg",
 			"degree": "Media and communication",
-			"major": "Media and communication",
-			"location": "Lundeneset vidaregåande skule",
-			"dates": "2011 - 2013"
+			"majors": "Media and communication",
+			"school": "Lundeneset vidaregåande skule",
+			"dates": "2011 - 2013",
+			"url": "http://lvs.no/"
 		},
 
 		{
 			"name": "Norwegian Armed Forces Media Centre",
-			"city": "Oslo",
+			"location": "Oslo",
 			"degree": "certificate of apprenticeship",
-			"major": "Media Graphics Artist",
-			"location": "Akershus festning",
-			"dates": "2014 - 2016"
+			"majors": "Media Graphics Artist",
+			"school": "Akershus festning",
+			"dates": "2014 - 2016",
+			"url": "http://forsvaret.no/"
 		}
 	],
 
@@ -90,14 +93,14 @@ var education = {
 			"title": "Front-end Web Developer",
 			"school": "Udacity",
 			"dates": "2016",
-			"url": "udacity.com/front-end-web-developer"
+			"url": "http://udacity.com/front-end-web-developer"
 		},
 
 		{
 			"title": "Typography",
 			"school": "Lynda",
 			"dates": "2016",
-			"url": "lynda.com/typography"
+			"url": "http://lynda.com/typography"
 		}
 	],
 
@@ -108,17 +111,19 @@ var education = {
 
 		// Loop to display school information
 		this.schools.forEach(function(school) {
-			var formattedName = HTMLschoolName.replace("%data%", school.name);
+			var formattedNameAndUrl = HTMLschoolName.replace("%data%", school.name);
+			formattedNameAndUrl = formattedNameAndUrl.replace("#", school.url);
 			var formattedDegree = HTMLschoolDegree.replace("%data%", school.degree);
-			$(".education-entry").append(formattedName + formattedDegree);
+
+			$(".education-entry").append(formattedNameAndUrl + formattedDegree);
 
 			var formattedDates = HTMLschoolDates.replace("%data%", school.dates);
 			$(".education-entry").append(formattedDates);
 
-			var formattedLocation = HTMLschoolLocation.replace("%data%", school.location);
+			var formattedLocation = HTMLschoolLocation.replace("%data%", school.school);
 			$(".education-entry").append(formattedLocation);
 
-			var formattedMajor = HTMLschoolMajor.replace("%data%", school.major);
+			var formattedMajor = HTMLschoolMajor.replace("%data%", school.majors);
 			$(".education-entry").append(formattedMajor);
 		});
 
@@ -129,14 +134,17 @@ var education = {
 		$(".education-entry:last").append(HTMLonlineClasses);
 
 		this.onlineCourses.forEach(function(course) {
-			var formattedTitle = HTMLonlineTitle.replace("%data%", course.title);
+			var formattedTitleAndUrl = HTMLonlineTitle.replace("%data%", course.title);
+			formattedTitleAndUrl = formattedTitleAndUrl.replace("#", course.url);
+
 			var formattedSchool = HTMLonlineSchool.replace("%data%", course.school);
-			$(".education-entry:last").append(formattedTitle + formattedSchool);
+			$(".education-entry:last").append(formattedTitleAndUrl + formattedSchool);
 
 			var formattedDates = HTMLonlineDates.replace("%data%", course.dates);
 			$(".education-entry:last").append(formattedDates);
 
 			var formattedUrl = HTMLonlineURL.replace("%data%", course.url);
+			formattedUrl = formattedUrl.replace("#", course.url);
 			$(".education-entry:last").append(formattedUrl);
 		});
 
