@@ -62,8 +62,7 @@ var education = {
 			"name": "Lundeneset High School",
 			"location": "Ølensvåg",
 			"degree": "Higher Education Entrance Qualification",
-			"majors": "None",
-			"school": "Lundeneset High School",
+			"majors": ["None"],
 			"dates": "2013 - 2014",
 			"url": "http://lvs.no/"
 		},
@@ -72,18 +71,16 @@ var education = {
 			"name": "Lundeneset High School",
 			"location": "Ølensvåg",
 			"degree": "Media and communication",
-			"majors": "Media and communication",
-			"school": "Lundeneset vidaregåande skule",
+			"majors": ["Media and communication"],
 			"dates": "2011 - 2013",
 			"url": "http://lvs.no/"
 		},
 
 		{
 			"name": "Norwegian Armed Forces Media Centre",
-			"location": "Oslo",
+			"location": "Akershus festning",
 			"degree": "certificate of apprenticeship",
-			"majors": "Media Graphics Artist",
-			"school": "Akershus festning",
+			"majors": ["Media Graphics Artist"],
 			"dates": "2014 - 2016",
 			"url": "http://forsvaret.no/"
 		}
@@ -120,10 +117,16 @@ var education = {
 			var formattedDates = HTMLschoolDates.replace("%data%", school.dates);
 			$(".education-entry").append(formattedDates);
 
-			var formattedLocation = HTMLschoolLocation.replace("%data%", school.school);
+			var formattedLocation = HTMLschoolLocation.replace("%data%", school.location);
 			$(".education-entry").append(formattedLocation);
 
-			var formattedMajor = HTMLschoolMajor.replace("%data%", school.majors);
+			var majors = school.majors[0];
+			for (var i = 1; i < school.majors.length; i++) {
+				majors += ', ' + school.majors[i];
+			}
+
+			var formattedMajor = HTMLschoolMajor.replace("%data%", majors);
+
 			$(".education-entry").append(formattedMajor);
 		});
 
